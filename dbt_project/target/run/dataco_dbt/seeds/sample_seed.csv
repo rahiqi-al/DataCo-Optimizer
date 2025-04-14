@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "DATACO"."PUBLIC"."SAMPLE_SEED";
+    -- dbt seed --
+    
+            insert into dataco.public.sample_seed (id, name) values
+            (%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s),(%s,%s)
+        
+
+;
+  

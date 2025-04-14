@@ -1,0 +1,22 @@
+name: 'dataco_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'dataco'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+target-path: "target"
+log-path: "logs"
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dataco_dbt:
+    materialized: table
+
+seeds:
+  dataco_dbt:
+    quote_columns: false

@@ -1,0 +1,1 @@
+{"_invocation_id": "6c7e1c27-1e2a-4d81-afa1-e4846322f3a3", "linked": {"0": {"name": "model.dataco_dbt.example_model", "type": "model"}, "1": {"name": "seed.dataco_dbt.sample_seed", "type": "seed", "succ": [0]}}}
