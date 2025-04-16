@@ -23,3 +23,7 @@ SELECT SYSTEM$GET_SNOWFLAKE_PLATFORM_INFO();
 
 SELECT CURRENT_REGION(), CURRENT_ACCOUNT_NAME();
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+docker exec -it -u airflow airflow bash
+pip install confluent-kafka snowflake-connector-python pandas
